@@ -24,9 +24,5 @@ public class Autore {
     @JsonIgnore(value = true)
     private List<BlogPost> blogPosts;
 
-    @PrePersist
-    public void setAvatar() {
-        this.avatar = "https://ui-avatars.com/api/?name=" +nome +cognome;
-    }
 
 }
