@@ -24,5 +24,7 @@ public class Autore {
     @JsonIgnore(value = true)
     private List<BlogPost> blogPosts;
 
+    private String foto;
+
 
 }
